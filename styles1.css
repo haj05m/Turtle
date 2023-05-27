@@ -64,3 +64,6 @@ footer {
 	width: 300px;
 }
 	
+@-ms-viewport{
+  width: device-width;
+}	
