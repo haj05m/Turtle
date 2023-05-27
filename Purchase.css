@@ -156,3 +156,6 @@ footer {
   background-color: Tan;
   color: white;
 }
+@-ms-viewport{
+  width: device-width;
+}
