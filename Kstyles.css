@@ -154,4 +154,6 @@ img {
 .img_item{
 	width: 300px;
 }
-
+@-ms-viewport{
+  width: device-width;
+}
