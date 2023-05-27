@@ -310,4 +310,6 @@ u {
 p {
   margin: 35px 70px;
 }
-
+@-ms-viewport{
+  width: device-width;
+}
