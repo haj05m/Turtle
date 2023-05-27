@@ -1,0 +1,163 @@
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+const resizeOps = () => {
+    document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
+  };
+
+  resizeOps();
+  window.addEventListener("resize", resizeOps);
+  
+  html, body {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+
+.box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+    }
+	.box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+    }
+	
+body{
+font-family:TimesNewRoman;
+color:DarkCyan;
+}
+p{
+color:DarkSlateGray;
+font-style:bold;
+font-size:16px;
+}
+
+
+.box {
+        width: 100%;
+        position: center;
+        z-index: 99;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        background: #f0e68c;
+    }
+	
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+}
+
+div {
+  background-color: beige;
+  width: 0px;
+  border: 15px beige;
+  padding: 0px;
+  margin: 0px;
+}
+
+.button-group button {
+
+  background-color: #2980B9 ;
+
+  border: 1px night blue;
+
+  color: white;
+
+  padding: 10px 24px;
+
+  cursor: pointer;
+
+  float: left;
+
+}
+
+ 
+
+.button-group:after {
+
+  content: "";
+
+  clear: both;
+
+  display: table;
+
+}
+
+ 
+
+.button-group button:not(:last-child) {
+
+  border-right: none;
+
+}
+
+ 
+
+.button-group button:hover {
+
+  background-color: #2EC8A9;
+  
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: Tan;
+  color: white;
+}
+
+
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
+.img_item{
+	width: 300px;
+}
+
+.center {
+  text-align: center;
+}
+u {
+  text-decoration: underline;
+}
+.container {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+}
+
+.text {
+  font-size: 70px;
+}
+
+.img_item{
+	width: 300px;
+}
+
+h2 {
+  text-align: left;
+}
+li {
+  text-align: left;
+}

@@ -1,0 +1,66 @@
+body{
+font-family:Arial;
+color:navy;
+}
+p{
+color:navy;
+font-style:bold;
+font-size:16px;
+}
+h1 {
+  text-align: center;
+}
+.button-group button {
+
+  background-color: #2980B9 ;
+
+  border: 1px night blue;
+
+  color: white;
+
+  padding: 10px 24px;
+
+  cursor: pointer;
+
+  float: left;
+
+}
+
+ 
+
+.button-group:after {
+
+  content: "";
+
+  clear: both;
+
+  display: table;
+
+}
+
+ 
+
+.button-group button:not(:last-child) {
+
+  border-right: none;
+
+}
+
+ 
+
+.button-group button:hover {
+
+  background-color: #007C80;
+  
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: Tan;
+  color: white;
+}
+
+.img_item{
+	width: 300px;
+}
+	
