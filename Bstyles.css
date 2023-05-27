@@ -161,3 +161,6 @@ h2 {
 li {
   text-align: left;
 }
+@-ms-viewport{
+  width: device-width;
+}
